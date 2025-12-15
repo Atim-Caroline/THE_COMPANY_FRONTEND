@@ -24,9 +24,9 @@
 
 **Dependencies:**
 - Relies on Carol for design guidelines and component standards
-- Relies on Mercy for API specifications and data structure
+- Relies on carol for API specifications and data structure
 
-### Mercy - Frontend Developer & API Integration Specialist
+### Carol - Frontend Developer & API Integration Specialist
 **Responsibilities:**
 - API integration and data management
 - State management implementation
@@ -43,7 +43,7 @@
 ```
 Carol (Design & Architecture)
     ↓
-Mercy (API Integration) ← → Yonah (Testing & Implementation)
+CAROL (API Integration) ← → Yonah (Testing & Implementation)
     ↓
 Final Product Integration
 ```
@@ -60,7 +60,4 @@ Final Product Integration
 - `src/__tests__/` - Testing files
 - `src/utils/` - Utility functions and helpers
 
-### Mercy's Primary Areas:
-- `src/services/` - API services and data fetching
-- `src/context/` - State management and context
-- `src/hooks/` - Custom React hooks
+
