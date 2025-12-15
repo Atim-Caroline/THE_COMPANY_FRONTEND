@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ink: #0f0a14;
+  --plum: #1f1027;
+  --rose: #ff6b6b;
+  --amber: #f5a524;
+  --frost: #f4f6fb;
+  --muted: #cdd3e1;
+  --card: #14101a;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(circle at 20% 20%, rgba(255,107,107,0.08), transparent 25%),
+              radial-gradient(circle at 80% 0%, rgba(245,165,36,0.1), transparent 30%),
+              linear-gradient(180deg, #0b0811 0%, #0f0a14 60%, #0b0811 100%);
+  color: #f9fafb;
+}
+
+a {
+  color: inherit;
+}
+
+button, input, select {
+  font-family: inherit;
+}
+
+code {
+  font-family: 'SFMono-Regular', Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
